@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/Illia_Project/static/css/main.7572d796.css",
+    "main.js": "/Illia_Project/static/js/main.73ff005a.js",
+    "static/media/start.jpg": "/Illia_Project/static/media/start.6c81e5528b53016d21f7.jpg",
+    "static/media/5.jpg": "/Illia_Project/static/media/5.62b48d806858de6b2982.jpg",
+    "static/media/4.jpg": "/Illia_Project/static/media/4.386fa453ff72380ed66a.jpg",
+    "static/media/6.jpg": "/Illia_Project/static/media/6.a4009d89c51b1f380bcd.jpg",
+    "static/media/1.jpg": "/Illia_Project/static/media/1.380d6474a4c36cba32c7.jpg",
+    "static/media/3.jpg": "/Illia_Project/static/media/3.d968556b7276828d8e38.jpg",
+    "static/media/2.jpg": "/Illia_Project/static/media/2.63aa695a2b5c928d2c72.jpg",
+    "index.html": "/Illia_Project/index.html",
+    "main.7572d796.css.map": "/Illia_Project/static/css/main.7572d796.css.map",
+    "main.73ff005a.js.map": "/Illia_Project/static/js/main.73ff005a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.7572d796.css",
+    "static/js/main.73ff005a.js"
   ]
 }
