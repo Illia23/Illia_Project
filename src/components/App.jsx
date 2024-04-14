@@ -1,16 +1,20 @@
-export const App = () => {
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ExamplesPage from './pages/Exsample';
+import ContactsPage from './pages/ContactsPage';
+import Layot from 'Layout';
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Routes>
+      <Route path="/" element={<Layot />}>
+          <Route index element={<HomePage />} />
+          <Route path="/examples" element={<ExamplesPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
+      </Route>
+          
+    </Routes>
   );
-};
+}
+
+export default App;

@@ -1,0 +1,58 @@
+/* Header Container */
+.nav {
+    padding: 16px;
+    /* Колір фону */
+    /* Відступи від країв контейнера */
+}
+
+/* Header Links */
+.list {
+    list-style-type: none;
+    /* Видалення маркерів списку */
+    padding: 0;
+    /* Відсутність відступів */
+    display: flex;
+    /* Використання flexbox для розташування елементів */
+    justify-content: center;
+    /* Рівномірне розташування елементів по ширині */
+}
+
+.item {
+    margin-right: 30px;
+    /* Горизонтальні відступи між елементами списку */
+}
+
+.logo {
+    width: 150px;
+    height: 140px;
+}
+
+.nav a {
+    color: #000;
+    /* Колір тексту посилань */
+    text-decoration: none;
+    /* Видалення підкреслення */
+    padding: 8px;
+
+    font-size: 12px;
+
+    font-family: "Lato", sans-serif;
+    /* Відступи всередині посилань */
+    transition: color 0.3s ease;
+    /* Плавний перехід для кольору тексту */
+}
+
+.nav a:hover {
+    color: #428b0d;
+    /* Колір тексту при наведенні курсора */
+}
+
+a .active {
+    color: #428b0d;
+}
+
+
+
+.line {
+    border-top: 1px solid gray;
+}
